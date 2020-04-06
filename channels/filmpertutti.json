@@ -1,0 +1,11 @@
+{
+  "id": "filmpertutti",
+  "name": "Filmpertutti",
+  "active": true,
+  "adult": false,
+  "language": ["ita", "sub-ita"],
+  "thumbnail": "filmpertutti.png",
+  "banner": "filmpertutti.png",
+  "categories": ["tvshow","movie"],
+  "settings": []
+}

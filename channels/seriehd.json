@@ -1,0 +1,12 @@
+{
+    "id": "seriehd",
+    "name": "SerieHD",
+    "active": true,
+    "adult": false,
+    "language": ["ita"],
+    "thumbnail": "seriehd.png",
+    "banner": "seriehd.png",
+    "categories": ["tvshow"],
+    "settings": [],
+    "cloudflare": true
+}

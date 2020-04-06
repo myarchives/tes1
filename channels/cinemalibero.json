@@ -1,0 +1,12 @@
+{
+	"id": "cinemalibero",
+	"name": "Cinemalibero",
+	"language": ["ita"],
+	"active": true,
+	"adult": false,
+	"thumbnail": "cinemalibero.png",
+	"banner": "cinemalibero.png",
+	"categories": ["movie","tvshow"],
+	"not_active": ["include_in_newest_anime"],
+    "settings": []
+}

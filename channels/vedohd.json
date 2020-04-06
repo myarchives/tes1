@@ -1,0 +1,11 @@
+{
+	"id": "vedohd",
+	"name": "VedoHD",
+	"language": ["ita"],
+	"active": false,
+	"adult": false,
+	"thumbnail": "vedohd.png",
+	"banner": "vedohd.png",
+	"categories": ["movie"],
+	"settings": []
+}

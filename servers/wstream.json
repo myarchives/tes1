@@ -1,0 +1,47 @@
+{
+    "id": "wstream",
+    "name": "Wstream",
+    "active": true,
+    "free": true,
+    "thumbnail": "server_wstream.png",
+    "find_videos": {
+        "patterns": [
+            {
+                "pattern": "wstream\\.video(?!<)(?:=|/)(?:video[a-zA-Z0-9.?_]*|embed[a-zA-Z0-9]*|)?(?!api|swembedid)(?:-|/|=)?(?:[a-z0-9A-Z]+/)?([a-z0-9A-Z]+)",
+                "url": "https://wstream.video/video.php?file_code=\\1"
+            },
+            {
+                "pattern": "wstream\\.video/(api/vcmod/fastredirect/streaming\\.php\\?id=[$0-9]+)",
+                "url": "https://wstream.video/\\1"
+            }
+        ],
+        "ignore_urls": []
+    },
+    "settings": [
+        {
+            "default": false,
+            "enabled": true,
+            "id": "black_list",
+            "label": "$ADDON[plugin.video.kod 60654]",
+            "type": "bool",
+            "visible": true
+        },
+        {
+            "default": "100",
+            "enabled": true,
+            "id": "favorites_servers_list",
+            "label": "$ADDON[plugin.video.kod 60655]",
+            "lvalues": [
+                "No",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "type": "list",
+            "visible": false
+        }
+    ],
+    "cloudflare": true
+}

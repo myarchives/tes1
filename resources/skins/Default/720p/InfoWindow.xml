@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window>
+    <allowoverlays>false</allowoverlays>
+    <controls>
+      <control type="group" id="10001">
+        <posx>50</posx>
+        <posy>28</posy>
+        <width>1179</width>
+        <height>663</height>
+        <control type="image">
+          <width>1179</width>
+          <height>663</height>
+          <texture>Shortcut/dialog-bg-solid.png</texture>
+        </control>
+        <!-- <control type="image">
+          <height>40</height>
+          <width>800</width>
+          <texture>Windows/dialogheader.png</texture>
+        </control> -->
+        <control type="label" id="10002">
+          <posy>15</posy>
+          <posx>0</posx>
+          <height>34</height>
+          <width>1179</width>
+          <font>font12_title</font>
+          <textcolor>0xFFFFFFFF</textcolor>
+          <!-- <shadowcolor>black</shadowcolor> -->
+          <align>center</align>
+          <aligny>center</aligny>
+          <label>$ADDON[plugin.video.kod 70000]</label>
+        </control>
+        <control type="button" id="10003">
+          <posx>1120</posx>
+          <posy>25</posy>
+          <width>20</width>
+          <height>20</height>
+          <texturefocus>Controls/DialogCloseButton-focus.png</texturefocus>
+          <texturenofocus>Controls/DialogCloseButton.png</texturenofocus>
+        </control>
+        <control type="image" id="10004"> <!-- FANART -->
+          <posx>0</posx>
+          <posy>0</posy>
+          <width>1179</width>
+          <height>663</height>
+          <texture></texture>
+          <colordiffuse>33FFFFFF</colordiffuse>
+        </control>
+        <control type="image" id="10005"> <!-- LOCANDINA -->
+          <posx>809</posx>
+          <posy>110</posy>
+          <width>310</width>
+          <height>444</height>
+          <texture></texture>
+        </control>
+        <control type="label" id="10006"> <!-- Serie -->
+          <posy>100</posy>
+          <posx>60</posx>
+          <height>40</height>
+          <width>100</width>
+          <font>font10</font>
+          <textcolor>0xFFFFFFFF</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <align>posx</align>
+          <aligny>posy</aligny>
+          <label></label>
+        </control>
+        <control type="label" id="10007">
+          <posy>100</posy>
+          <posx>200</posx>
+          <height>40</height>
+          <width>365</width>
+          <font>font10</font>
+          <scrollsuffix> | </scrollsuffix>
+          <scroll>true</scroll>
+          <textcolor>0xFFFFFFFF</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <align>posx</align>
+          <aligny>posy</aligny>
+          <label></label>
+        </control>
+        <control type="label" id="10008"> <!-- Lingua Originale -->
+          <posy>120</posy>
+          <posx>60</posx>
+          <height>40</height>
+          <width>100</width>
+          <font>font10</font>
+          <textcolor>0xFFFFFFFF</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <align>posx</align>
+          <aligny>posy</aligny>
+          <label></label>
+        </control>
+        <control type="label" id="10009">
+          <posy>120</posy>
+          <posx>200</posx>
+          <height>40</height>
+          <width>365</width>
+          <font>font10</font>
+          <scrollsuffix> | </scrollsuffix>
+          <scroll>true</scroll>
+          <textcolor>0xFFFFFFFF</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <align>posx</align>
+          <aligny>posy</aligny>
+          <label></label>
+        </control>
+        <control type="label" id="100010"> <!-- Punteggio -->
+          <posy>140</posy>
+          <posx>60</posx>
+          <height>40</height>
+          <width>100</width>
+          <font>font10</font>
+          <textcolor>0xFFFFFFFF</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <align>posx</align>
+          <aligny>posy</aligny>
+          <label></label>
+        </control>
+        <control type="label" id="100011">
+          <posy>140</posy>
+          <posx>200</posx>
+          <height>40</height>
+          <width>365</width>
+          <font>font10</font>
+          <scrollsuffix> | </scrollsuffix>
+          <scroll>true</scroll>
+          <textcolor>0xFFFFFFFF</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <align>posx</align>
+          <aligny>posy</aligny>
+          <label></label>
+        </control>
+        <control type="label" id="100012"> <!-- Generi -->
+          <posy>160</posy>
+          <posx>60</posx>
+          <height>40</height>
+          <width>100</width>
+          <font>font10</font>
+          <textcolor>0xFFFFFFFF</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <align>posx</align>
+          <aligny>posy</aligny>
+          <label></label>
+        </control>
+        <control type="label" id="100013">
+          <posy>160</posy>
+          <posx>200</posx>
+          <height>40</height>
+          <width>365</width>
+          <font>font10</font>
+          <scrollsuffix> | </scrollsuffix>
+          <scroll>true</scroll>
+          <textcolor>0xFFFFFFFF</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <align>posx</align>
+          <aligny>posy</aligny>
+          <label></label>
+        </control>
+        <control type="label" id="100014">
+          <posy>180</posy>
+          <posx>60</posx>
+          <height>40</height>
+          <width>100</width>
+          <font>font10</font>
+          <textcolor>0xFFFFFFFF</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <align>posx</align>
+          <aligny>posy</aligny>
+          <label></label>
+        </control>
+        <control type="label" id="100015">
+          <posy>180</posy>
+          <posx>200</posx>
+          <height>40</height>
+          <width>365</width>
+          <font>font10</font>
+          <scrollsuffix> | </scrollsuffix>
+          <scroll>true</scroll>
+          <textcolor>0xFFFFFFFF</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <align>posx</align>
+          <aligny>posy</aligny>
+          <label></label>
+        </control>
+        <control type="label" id="100016">
+          <posy>200</posy>
+          <posx>60</posx>
+          <height>40</height>
+          <width>100</width>
+          <font>font10</font>
+          <textcolor>0xFFFFFFFF</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <align>posx</align>
+          <aligny>posy</aligny>
+          <label></label>
+        </control>
+        <control type="label" id="100017">
+          <posy>200</posy>
+          <posx>200</posx>
+          <height>40</height>
+          <width>365</width>
+          <font>font10</font>
+          <scrollsuffix> | </scrollsuffix>
+          <scroll>true</scroll>
+          <textcolor>0xFFFFFFFF</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <align>posx</align>
+          <aligny>posy</aligny>
+          <label></label>
+        </control>
+        <control type="label" id="100018">
+          <posy>220</posy>
+          <posx>60</posx>
+          <height>40</height>
+          <width>100</width>
+          <font>font10</font>
+          <textcolor>0xFFFFFFFF</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <align>posx</align>
+          <aligny>posy</aligny>
+          <label></label>
+        </control>
+        <control type="label" id="100019">
+          <posy>220</posy>
+          <posx>200</posx>
+          <height>40</height>
+          <width>365</width>
+          <font>font10</font>
+          <scrollsuffix> | </scrollsuffix>
+          <scroll>true</scroll>
+          <textcolor>0xFFFFFFFF</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <align>posx</align>
+          <aligny>posy</aligny>
+          <label></label>
+        </control>
+        <control type="label" id="100020">
+          <posy>240</posy>
+          <posx>60</posx>
+          <height>40</height>
+          <width>100</width>
+          <font>font10</font>
+          <textcolor>0xFFFFFFFF</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <align>posx</align>
+          <aligny>posy</aligny>
+          <label></label>
+        </control>
+        <control type="label" id="100021">
+          <posy>240</posy>
+          <posx>200</posx>
+          <height>40</height>
+          <width>365</width>
+          <font>font10</font>
+          <scrollsuffix> | </scrollsuffix>
+          <scroll>true</scroll>
+          <textcolor>0xFFFFFFFF</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <align>posx</align>
+          <aligny>posy</aligny>
+          <label></label>
+        </control>
+        <control type="label" id="100022"> <!-- Trama -->
+          <posy>260</posy>
+          <posx>60</posx>
+          <height>40</height>
+          <width>505</width>
+          <font>font10</font>
+          <textcolor>0xFFFFFFFF</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <align>posx</align>
+          <aligny>posy</aligny>
+          <label></label>
+        </control>
+        <control type="textbox" id="100023">
+          <posy>260</posy>
+          <posx>200</posx>
+          <height>294</height>
+          <width>500</width>
+          <font>font10</font>
+          <textcolor>0xFFFFFFFF</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <wrapmultiline>true</wrapmultiline>
+          <autoscroll delay="2000" time="1500" repeat="2000">true</autoscroll>
+          <align>justify</align>
+          <aligny>posy</aligny>
+          <label></label>
+        </control>
+
+        <control type="group" id="10024">
+          <posy>600</posy>
+          <posx>40</posx>
+          <width>760</width>
+          <height>30</height>
+
+          <control type="button" id="10025">
+            <posy>0</posy>
+            <posx>0</posx>
+            <width>200</width>
+            <height>50</height>
+            <textwidth>110</textwidth>
+            <texturefocus>Controls/KeyboardKey.png</texturefocus>
+            <texturenofocus>Controls/KeyboardKeyNF.png</texturenofocus>
+            <align>center</align>
+            <aligny>center</aligny>
+            <label>$ADDON[plugin.video.kod 70005]</label>
+          </control>
+          <control type="button" id="10026">
+            <posy>0</posy>
+            <posx>210</posx>
+            <width>200</width>
+            <height>50</height>
+            <textwidth>110</textwidth>
+            <texturefocus>Controls/KeyboardKey.png</texturefocus>
+            <texturenofocus>Controls/KeyboardKeyNF.png</texturenofocus>
+            <align>center</align>
+            <aligny>center</aligny>
+            <label>$ADDON[plugin.video.kod 70006]</label>
+          </control>
+          <control type="button" id="10027">
+            <posy>0</posy>
+            <posx>420</posx>
+            <width>200</width>
+            <height>50</height>
+            <textwidth>110</textwidth>
+            <texturefocus>Controls/KeyboardKey.png</texturefocus>
+            <texturenofocus>Controls/KeyboardKeyNF.png</texturenofocus>
+            <align>center</align>
+            <aligny>center</aligny>
+            <label>$ADDON[plugin.video.kod 70002]</label>
+          </control>
+          <control type="button" id="10028">
+            <posy>0</posy>
+            <posx>640</posx>
+            <width>200</width>
+            <height>50</height>
+            <textwidth>110</textwidth>
+            <texturefocus>Controls/KeyboardKey.png</texturefocus>
+            <texturenofocus>Controls/KeyboardKeyNF.png</texturenofocus>
+            <align>center</align>
+            <aligny>center</aligny>
+            <label>$ADDON[plugin.video.kod 70007]</label>
+          </control>
+          <control type="label" id="100029">
+            <posy>10</posy>
+            <posx>1080</posx>
+            <height>30</height>
+            <width>110</width>
+            <font>font10</font>
+            <textcolor>0xFFFFFFFF</textcolor>
+            <shadowcolor>black</shadowcolor>
+            <align>right</align>
+            <aligny>center</aligny>
+            <label></label>
+          </control>
+        </control>
+      </control>
+    </controls>
+</window>

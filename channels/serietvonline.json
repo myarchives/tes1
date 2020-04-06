@@ -1,0 +1,12 @@
+{
+    "id": "serietvonline",
+    "name": "SerieTvOnline",
+    "active": true,
+    "adult": false,
+    "language": ["ita"],
+    "thumbnail": "serietvonline.png",
+    "bannermenu": "serietvonline.png",
+    "categories": ["anime","tvshow","movie","documentary"],
+    "not_active": ["include_in_newest_anime"],
+    "settings": []
+}
